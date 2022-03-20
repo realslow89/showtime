@@ -4,17 +4,56 @@
 <title>yunchan's- JavaScript</title>
 <meta charset="utf-8">
 
+  <style>
+  body{
+    margin:0px;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:50px;
+    text-align:center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    border-right:1px solid gray;
+
+    margin:0px;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left: 33px;
+  }
+  #article{
+    padding-left: 25px;
+  }
+  </style>
 </head>
 <body>
 <h1><a href="index.html">양윤찬</a></h1>
-<ol>
-  <li><a href="1.html">사랑하는것</a></li>
-  <li><a href="2.html">관심사</a></li>
-  <li><a href="3.html">직업</a></li>
-</ol>
-<h2>직업</h2>
+<div id="grid">
+  <ol>
+    <li><a href="1.html">사랑하는것</a></li>
+    <li><a href="2.html">관심사</a></li>
+    <li><a href="3.html">직업</a></li>
+  </ol>
+    <div id="article">
+      <h2>직업</h2>
 
-<p>인사담당자</p>
+      <p>
+        ‘3군을 얻는 것보다 장수 하나를 얻는 것이 더 어렵다’ 매력적이고 용맹한 인물들이 자웅을 겨루는 작품 ‘삼국지’ 속 위나라의 장군 곽회의 대사입니다. 고심한 끝에 등용해야 하는 인재 하나가 얼마나 소중하고 또 얻기 어려운가에 대해 생각하게 만드는 말인데요.
 
+        카리스마 넘치는 위, 촉, 오 영웅들의 각기 다른 용인술을 현대식 기업의 이야기로 바꾸어 말한다면 ‘인사(人事, Human Resource)’가 가장 적합하지 않을까 합니다. 인재를 채용하고 사내 교육과 관리, 보상 및 평가까지 하는 인사담당자는 필요에 의해 직원을 해임하는 역할까지 수행합니다.
+      </p>
+    </div>
+</div>
 </body>
 </html>
